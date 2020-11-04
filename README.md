@@ -13,8 +13,8 @@ This API was built for those who wants to collect tweets programmatically from p
 # Documentation
 ## GET /tweets.php
 ### Parameter:<br>
-<code>username</code> - twitter username of target account<br>
-<code>nextPageCursor</code> - token for accessing next tweets/pagination<br>
+<code>username</code> - twitter username of target account (<i><b>required</b></i>)<br>
+<code>nextPageCursor</code> - token for accessing next tweets/pagination (<i><b>not required</b></i> for initial API call, <i><b>required</b></i> for accessing next pages)<br>
 ### Example:
 * For accessing first page:<br>
 <code>/tweets.php?username=tufayel_cse</code>
