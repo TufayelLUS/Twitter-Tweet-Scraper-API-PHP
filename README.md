@@ -4,6 +4,12 @@ A php curl based twitter tweets scraper API developed by Tufayel Ahmed
 # Purpose
 This API was built for those who wants to collect tweets programmatically from profiles or those who wants to delete their twitter account but wants to backup their tweets.
 
+# Some Helpful Information
+* There are 20 tweets returned per each request made.
+* Twitter has rate limiting feature, so don't plan to go mad.
+* I am not hosting this API just to play safe.
+* To bypass rate limit, implement rotating proxies if you plan to use it in production level.
+
 # Documentation
 ## GET /tweets.php
 ### Parameter:<br>
